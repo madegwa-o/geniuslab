@@ -15,9 +15,9 @@ const eventDetails = {
 };
 
 const heroSlides = [
-  "Build, defend, and reimagine the future of tech.",
-  "Collaborate with mentors and industry innovators.",
-  "Prototype bold solutions for real-world impact.",
+  "Build, defend, and shape the future of tech.",
+  "Learn from mentors and industry leaders.",
+  "Ship a prototype that solves real problems.",
 ];
 
 const heroImages = [
@@ -302,8 +302,8 @@ export default function LandingPage() {
             <a className="transition hover:text-emerald-700" href="#schedule">
               Schedule
             </a>
-            <a className="transition hover:text-emerald-700" href="#poster">
-              Poster
+            <a className="transition hover:text-emerald-700" href="#visuals">
+              Visuals
             </a>
             <a className="transition hover:text-emerald-700" href="#about">
               About
@@ -367,7 +367,7 @@ export default function LandingPage() {
                 className="inline-flex w-full items-center justify-center gap-2 rounded-full border border-emerald-200 bg-white px-6 py-3 text-sm font-semibold text-emerald-700 transition hover:border-emerald-300 hover:text-emerald-800 sm:w-auto"
                 href="#poster"
               >
-                View poster details
+                View event visuals
               </a>
             </motion.div>
 
@@ -444,7 +444,7 @@ export default function LandingPage() {
               </div>
               <div className="absolute inset-x-0 bottom-0 p-6">
                 <p className="text-lg font-semibold text-white">
-                  Inspired by innovation, grounded in community.
+                  Inspired by innovation, built for community.
                 </p>
               </div>
             </div>
@@ -465,12 +465,12 @@ export default function LandingPage() {
                 Order of events
               </p>
               <h2 className="font-[var(--font-display)] mt-3 text-3xl font-semibold text-[#0d3b2a]">
-                A clear flow from kickoff to awards.
+                A clear run-down from kickoff to awards.
               </h2>
             </div>
             <p className="max-w-xl text-sm text-emerald-800/80">
-              Designed for momentum: orientation, practical bootcamps, mentor
-              guidance, and showcase-ready demos.
+              Built for momentum: orientation, practical bootcamps, mentor
+              support, and a solid demo day.
             </p>
           </div>
 
@@ -495,7 +495,7 @@ export default function LandingPage() {
         </motion.section>
 
         <motion.section
-          id="poster"
+          id="visuals"
           variants={motionItem}
           initial="hidden"
           whileInView="show"
@@ -504,31 +504,18 @@ export default function LandingPage() {
         >
           <div className="flex flex-col gap-6">
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-emerald-700/70">
-              Official poster
+              Event visuals
             </p>
-            <h2 className="font-[var(--font-display)] text-3xl font-semibold text-[#0d3b2a]">
-              Visual identity inspired by Karatina University.
-            </h2>
             <p className="text-base text-emerald-800/80">
-              The poster sets the tone for the hackathon. The green and gold
-              palette, clean geometric layouts, and bold tech imagery guide this
-              landing page design.
+              These visuals set the tone for the hackathon. The green and gold
+              palette, clean geometry, and bold tech imagery guide the page
+              styling.
             </p>
-            <div className="rounded-2xl border border-emerald-100 bg-white/90 p-5">
-              <p className="text-sm font-semibold text-[#0a2e1d]">
-                Featured elements
-              </p>
-              <ul className="mt-3 space-y-2 text-sm text-emerald-800/80">
-                <li>Forward-looking AI and cybersecurity visuals</li>
-                <li>Emerald gradients with gold accents</li>
-                <li>Bold typography and clean spacing</li>
-              </ul>
-            </div>
             <a
               className="inline-flex w-fit items-center gap-2 rounded-full bg-[#0d3b2a] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#0f4a33]"
-              href="#poster"
+              href="#visuals"
             >
-              View poster details <ArrowRight className="h-4 w-4" />
+              View event visuals <ArrowRight className="h-4 w-4" />
             </a>
           </div>
 
@@ -536,7 +523,7 @@ export default function LandingPage() {
             <div className="relative aspect-[4/5] overflow-hidden rounded-3xl border border-emerald-100 bg-white shadow-xl shadow-emerald-200/40">
               <Image
                 src="/karatina-hackathon-poster.jpg"
-                alt="Karatina University Geniuslab Hackathon poster"
+                alt="Karatina University Geniuslab Hackathon visual"
                 fill
                 sizes="(max-width: 1024px) 100vw, 40vw"
                 className="object-cover"
@@ -562,8 +549,8 @@ export default function LandingPage() {
               Program at a glance
             </h2>
             <p className="max-w-2xl text-base text-emerald-800/80">
-              Two focused days of orientation, practical bootcamp tracks, guided
-              building, presentations, and final awards.
+              Two focused days of orientation, bootcamp tracks, guided building,
+              presentations, and awards.
             </p>
           </div>
 
@@ -595,11 +582,11 @@ export default function LandingPage() {
                 Ready to join?
               </p>
               <h2 className="font-[var(--font-display)] mt-3 text-3xl font-semibold">
-                Bring your ideas to the Geniuslab Hackathon.
+                Bring your ideas to Geniuslab.
               </h2>
               <p className="mt-3 max-w-xl text-sm text-emerald-50/90">
-                Connect with mentors, build real-world solutions, and showcase
-                your innovations to industry leaders and university partners.
+                Connect with mentors, build real solutions, and share your work
+                with industry and university partners.
               </p>
             </div>
             <a
