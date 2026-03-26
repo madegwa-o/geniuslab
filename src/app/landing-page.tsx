@@ -55,108 +55,117 @@ const orderOfEvents = [
 
 const dayOneSchedule = [
   {
-    time: "8:00 - 9:00 AM",
+    time: "8:00 - 9:00 am",
     activity: "Arrival and registration",
-    lead: "Organizing committee",
+    lead: "Organizing Committee, Mr. Zablon, Ms. Kawira",
   },
   {
-    time: "9:00 - 9:10 AM",
+    time: "9:00 - 9:10 am",
     activity: "Opening prayer",
-    lead: "Organizing committee",
+    lead: "Member of the School SCI, Dr. Hellen",
   },
   {
-    time: "9:10 - 9:45 AM",
-    activity: "Opening session and welcome remarks",
-    lead: "HoD Computing, HoD Informatics & Innovation, Dean SCI, University management",
-  },
-  {
-    time: "9:45 - 10:00 AM",
-    activity: "Hackathon overview and introductions",
-    lead: "Organizing committee",
-  },
-  {
-    time: "10:00 - 10:30 AM",
-    activity: "Keynote: Innovation, industry trends and emerging technologies",
-    lead: "Lead industry speaker / guest of honor",
-  },
-  {
-    time: "10:30 - 11:00 AM",
-    activity: "Health break",
-    lead: "N/A",
-  },
-  {
-    time: "11:00 AM - 1:00 PM",
+    time: "9:10 - 9:30 am",
     activity:
-      "Technical bootcamp sessions on AI, cybersecurity, IoT, software development and tools",
-    lead: "Industry experts and partner organizations",
+      "Opening session: Introductions, welcome remarks, HoD Computing, Dean SCI, DVC ARSA",
+    lead: "Ms. Vancy",
   },
   {
-    time: "1:00 - 2:00 PM",
+    time: "9:30 - 10:00 am",
+    activity: "Keynote address",
+    lead: "Guest of Honour, Vice Chancellor - Karatina University",
+  },
+  {
+    time: "9:45 - 10:00 am",
+    activity: "Hackathon overview",
+    lead: "Organizing Committee, Dr. Harriet Tsinale",
+  },
+  {
+    time: "10:00 - 10:30 am",
+    activity: "Innovation, industry trends and emerging technologies",
+    lead: "Lead industry speaker, Prof. Frankline Wabwoba - DVC ARSA",
+  },
+  {
+    time: "10:30 - 11:00 am",
     activity: "Health break",
     lead: "N/A",
   },
   {
-    time: "2:00 - 2:30 PM",
-    activity: "Problem statement presentation, clarifications and team formation",
-    lead: "Judging panel",
+    time: "11:00 am - 1:00 pm",
+    activity:
+      "Technical bootcamp session: AI, cybersecurity, IoT, software development, hands-on tools and platforms",
+    lead:
+      "Industry experts, Innova Limited, Mr. Billy Okeyo, Andrew Elly Abok, Blockwisely, Yvonne Kagondu, Dr. Karani",
   },
   {
-    time: "2:30 - 3:00 PM",
-    activity: "Hackathon kickoff: ideation, design thinking and mentorship",
-    lead: "Mentors and technical coaches",
+    time: "1:00 - 2:00 pm",
+    activity: "Health break",
+    lead: "N/A",
   },
   {
-    time: "3:00 - 5:00 PM",
-    activity: "Project development and coding sprint",
+    time: "2:00 - 2:30 pm",
+    activity:
+      "Problem statement presentation and clarifications, team formation and ideation",
+    lead: "Judging Panel",
+  },
+  {
+    time: "2:30 - 3:00 pm",
+    activity: "Hackathon kick-off: ideation, design thinking and mentorship",
+    lead:
+      "Mentors and technical coaches, Mr. Vincent Tanui, Mr. Peter Njuguna, mentors from other universities",
+  },
+  {
+    time: "3:00 - 5:00 pm",
+    activity: "Hackathon: development and coding of the project",
     lead: "Participant teams",
   },
 ];
 
 const dayTwoSchedule = [
   {
-    time: "8:00 - 8:30 AM",
+    time: "8:00 - 8:30 am",
     activity: "Arrival and registration",
-    lead: "Organizing committee",
+    lead: "Mr. Maina, Mr. Ephantus",
   },
   {
-    time: "8:30 - 9:00 AM",
-    activity: "Judges panel brief",
-    lead: "Judging panel",
+    time: "8:30 - 8:40 am",
+    activity: "Opening prayer",
+    lead: "N/A",
   },
   {
-    time: "9:00 - 10:00 AM",
+    time: "8:40 - 10:00 am",
     activity: "Final development, testing and prototype completion",
-    lead: "Participant teams",
+    lead: "Mr. Munene, participant teams",
   },
   {
-    time: "10:00 - 10:30 AM",
+    time: "10:00 - 10:30 am",
     activity: "Health break",
     lead: "N/A",
   },
   {
-    time: "10:30 AM - 2:00 PM",
+    time: "10:30 am - 2:00 pm",
     activity: "Project presentations, demonstrations and evaluation",
-    lead: "Judging panel",
+    lead: "Judging Panel",
   },
   {
-    time: "2:00 - 3:00 PM",
+    time: "2:00 - 3:00 pm",
     activity: "Health break",
     lead: "N/A",
   },
   {
-    time: "3:00 - 3:30 PM",
+    time: "3:00 - 3:30 pm",
     activity: "Judging panel deliberation",
-    lead: "Judging panel",
+    lead: "Judging Panel",
   },
   {
-    time: "3:30 - 4:30 PM",
+    time: "3:30 - 4:30 pm",
     activity: "Awards ceremony and closing remarks",
-    lead: "Judging panel, chief guest, university management, lead sponsor",
+    lead: "Judging Panel, Dean, DVC ARSA, Chief Guest",
   },
   {
-    time: "4:30 - 5:00 PM",
+    time: "4:30 - 5:00 pm",
     activity: "Vote of thanks and closing prayer",
-    lead: "Organizing committee",
+    lead: "Ms. Vancy",
   },
 ];
 
@@ -365,9 +374,11 @@ export default function LandingPage() {
               </a>
               <a
                 className="inline-flex w-full items-center justify-center gap-2 rounded-full border border-emerald-200 bg-white px-6 py-3 text-sm font-semibold text-emerald-700 transition hover:border-emerald-300 hover:text-emerald-800 sm:w-auto"
-                href="#poster"
+                href="https://drive.google.com/file/d/1HaTl-PTIMBvbSOa5RDMhD9xz74w6qmEk/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
               >
-                View event visuals
+                Access programme
               </a>
             </motion.div>
 
