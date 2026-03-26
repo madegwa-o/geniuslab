@@ -443,10 +443,7 @@ export default function LandingPage() {
                 )}
               </div>
               <div className="absolute inset-x-0 bottom-0 p-6">
-                <p className="text-sm font-semibold uppercase tracking-[0.24em] text-emerald-200">
-                  Replace with your Unsplash image
-                </p>
-                <p className="mt-2 text-lg font-semibold text-white">
+                <p className="text-lg font-semibold text-white">
                   Inspired by innovation, grounded in community.
                 </p>
               </div>
