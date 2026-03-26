@@ -502,28 +502,17 @@ export default function LandingPage() {
           viewport={{ once: true, margin: "-80px" }}
           className="grid gap-10 lg:grid-cols-[1.05fr_0.95fr]"
         >
-          <div className="flex flex-col gap-6">
-            <p className="text-xs font-semibold uppercase tracking-[0.3em] text-emerald-700/70">
-              Event visuals
+          <div className="flex flex-col gap-4">
+            <p className="text-sm font-semibold text-emerald-800/80">
+              Event poster
             </p>
-            <p className="text-base text-emerald-800/80">
-              These visuals set the tone for the hackathon. The green and gold
-              palette, clean geometry, and bold tech imagery guide the page
-              styling.
-            </p>
-            <a
-              className="inline-flex w-fit items-center gap-2 rounded-full bg-[#0d3b2a] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#0f4a33]"
-              href="#visuals"
-            >
-              View event visuals <ArrowRight className="h-4 w-4" />
-            </a>
           </div>
 
           <div className="relative">
             <div className="relative aspect-[4/5] overflow-hidden rounded-3xl border border-emerald-100 bg-white shadow-xl shadow-emerald-200/40">
               <Image
                 src="/karatina-hackathon-poster.jpg"
-                alt="Karatina University Geniuslab Hackathon visual"
+                alt="Karatina University Geniuslab Hackathon poster"
                 fill
                 sizes="(max-width: 1024px) 100vw, 40vw"
                 className="object-cover"
