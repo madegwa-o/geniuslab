@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&family=Space+Grotesk:wght@400;500;700&display=swap");
 @import "tailwindcss";
 
 :root {
@@ -8,6 +9,9 @@
   --karatina-bright: #2ec071;
   --karatina-gold: #d2a552;
   --karatina-mist: #e8f3ee;
+  --font-manrope: "Manrope", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --font-space-grotesk: "Space Grotesk", "Trebuchet MS", "Segoe UI", Arial,
+    sans-serif;
 }
 
 @theme inline {
